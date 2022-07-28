@@ -6,10 +6,12 @@
 
 .page {
   margin: 70px 15px 20px 25px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .page-about {
-  margin: 60px 15px 20px 15px;
+  margin: 65px 15px 20px 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 h1,
@@ -20,7 +22,10 @@ h3 {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 70px;
+  font-weight: 600;
+  color: rgb(0, 0, 57);
+  text-transform: uppercase;
 }
 
 h2 {
@@ -29,12 +34,12 @@ h2 {
 
 h3 {
   font-size: 24px;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 p {
   margin-top: 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5;
   text-align: center;
 }
@@ -54,7 +59,7 @@ p {
 .navigation-links a {
   margin: 20px;
   border-radius: 4px;
-  padding: 20px 15px;
+  padding: 20px 30px;
   text-decoration: none;
   text-transform: capitalize;
 }
@@ -90,4 +95,33 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+.project-info {
+  margin-top: 48px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .container {
+    padding: 0;
+  }
+  .img-none {
+    display: none;
+  }
+  .project-info {
+    width: 100%;
+    margin-top: 0;
+  }
+  .navigation-links {
+    margin: 20px auto;
+  }
+  .navigation-links a {
+    text-align: center;
+    padding: 15px 20px;
+  }
 }
