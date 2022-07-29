@@ -107,6 +107,7 @@ p {
   h2 {
     font-size: 30px;
   }
+
   .container {
     padding: 0;
   }
@@ -129,5 +130,9 @@ p {
 @media (max-width: 992px) {
   .project-info {
     margin-top: 0;
+  }
+  .project-name {
+    font-size: 25px;
+    font-weight: 700;
   }
 }
